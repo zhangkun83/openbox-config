@@ -295,9 +295,19 @@
         <command>~/.config/openbox/scripts/chrome-personal.sh</command>
       </action>
     </keybind>
+    <keybind key="W-F10">
+      <action name="Execute">
+        <command>~/.config/openbox/scripts/youdao_dict.py</command>
+      </action>
+    </keybind>
     <keybind key="W-F12">
       <action name="Execute">
         <command>~/.config/openbox/scripts/lock.sh</command>
+      </action>
+    </keybind>
+    <keybind key="W-r">
+      <action name="Execute">
+        <command>gmrun</command>
       </action>
     </keybind>
   </keyboard>
