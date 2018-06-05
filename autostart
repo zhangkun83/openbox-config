@@ -1,0 +1,11 @@
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Change key repeat rate
+xset r rate 220 30
+
+xfce4-panel &
+xfce4-power-manager &
+
+$DIR/scripts/start_if_absent.sh urxvtd urxvtd -q -o -f
+$DIR/scripts/start_if_absent.sh nm-applet nm-applet
+$DIR/scripts/start_if_absent.sh xss-lock xss-lock -- $DIR/scripts/lock.sh
