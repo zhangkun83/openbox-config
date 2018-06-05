@@ -6,6 +6,15 @@ xset r rate 220 30
 xfce4-panel &
 xfce4-power-manager &
 
+redshift -O 6100
+
 $DIR/scripts/start_if_absent.sh urxvtd urxvtd -q -o -f
 $DIR/scripts/start_if_absent.sh nm-applet nm-applet
 $DIR/scripts/start_if_absent.sh xss-lock xss-lock -- $DIR/scripts/lock.sh
+
+if [[ -f "$DIR/runtime/current_profile/autostart" ]]; then
+  echo "ZK: loading profile"
+  source $DIR/runtime/current_profile/autostart
+else
+  echo "ZK: profile not found"
+fi
