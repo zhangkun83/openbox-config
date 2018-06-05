@@ -183,6 +183,16 @@
         <command>~/.config/openbox/scripts/urxvt.sh</command>
       </action>
     </keybind>
+    <keybind key="W-backslash">
+      <action name="Execute">
+        <command>~/.config/openbox/scripts/chrome-default-user.sh</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-backslash">
+      <action name="Execute">
+        <command>~/.config/openbox/scripts/chrome-personal.sh</command>
+      </action>
+    </keybind>
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
