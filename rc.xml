@@ -258,6 +258,12 @@
         </finalactions>
       </action>
     </keybind>
+    <keybind key="W-m">
+      <action name="ToggleMaximize"/>
+    </keybind>
+    <keybind key="W-n">
+      <action name="Iconify"/>
+    </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
     <keybind key="W-d">
       <action name="DirectionalCycleWindows">
