@@ -327,6 +327,12 @@
         <wrap>no</wrap>
       </action>
     </keybind>
+    <keybind key="W-equal">
+      <action name="AddDesktop"/>
+    </keybind>
+    <keybind key="W-minus">
+      <action name="RemoveDesktop"/>
+    </keybind>
     <keybind key="W-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
