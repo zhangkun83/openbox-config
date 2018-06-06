@@ -355,7 +355,7 @@
         </finalactions>
       </action>
     </keybind>
-    <keybind key="W-S-Tab">
+    <keybind key="W-grave">
       <action name="PreviousWindow">
         <finalactions>
           <action name="Focus"/>
