@@ -13,6 +13,10 @@ $DIR/scripts/start_if_absent.sh urxvtd urxvtd -q -o -f
 $DIR/scripts/start_if_absent.sh nm-applet nm-applet
 $DIR/scripts/start_if_absent.sh xss-lock xss-lock -- $DIR/scripts/lock.sh
 
+# something wrong with my workstation that I need to restart ibus-daemon
+# to get it actually work.
+$DIR/scripts/restart_ibus.sh
+
 if [[ -f "$DIR/runtime/current_profile/autostart" ]]; then
   echo "ZK: loading profile"
   source $DIR/runtime/current_profile/autostart

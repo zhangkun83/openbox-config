@@ -7,7 +7,3 @@ xinput set-prop 'SynPS/2 Synaptics TouchPad' --type=int 283 1 1
 
 # Make fonts slightly larger
 xrdb -merge <<< "Xft.dpi: 105"
-
-# something wrong with my workstation that I need to restart ibus-daemon
-# to get it actually work.
-$DIR/scripts/restart_ibus.sh
