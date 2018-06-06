@@ -370,6 +370,14 @@
     <keybind key="W-n">
       <action name="Iconify"/>
     </keybind>
+    <keybind key="W-p">
+      <action name="Move"/>
+    </keybind>
+    <keybind key="W-S-p">
+      <action name="Resize">
+        <edge>bottomright</edge>
+      </action>
+    </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
     <keybind key="W-d">
       <action name="DirectionalCycleWindows">
