@@ -8,6 +8,7 @@ xfce4-power-manager &
 
 redshift -O 6100
 
+$DIR/scripts/start_if_absent.sh conky conky -c $DIR/conky.conf
 $DIR/scripts/start_if_absent.sh urxvtd urxvtd -q -o -f
 $DIR/scripts/start_if_absent.sh nm-applet nm-applet
 $DIR/scripts/start_if_absent.sh xss-lock xss-lock -- $DIR/scripts/lock.sh
