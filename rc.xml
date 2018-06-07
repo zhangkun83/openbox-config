@@ -440,6 +440,11 @@
         <command>gmrun</command>
       </action>
     </keybind>
+    <keybind key="W-bracketright">
+      <action name="Execute">
+        <command>thunar</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
