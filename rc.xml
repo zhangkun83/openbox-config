@@ -425,6 +425,11 @@
         <command>~/.config/openbox/scripts/youdao_dict.py</command>
       </action>
     </keybind>
+    <keybind key="W-F11">
+      <action name="Execute">
+        <command>pavucontrol</command>
+      </action>
+    </keybind>
     <keybind key="W-F12">
       <action name="Execute">
         <command>~/.config/openbox/scripts/lock.sh</command>
