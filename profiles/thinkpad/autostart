@@ -1,6 +1,4 @@
 # Use "xinput list-props 'SynPS/2 Synaptics TouchPad'" to view all properties
-# Do not disable touchpad while typing
-xinput set-prop 'SynPS/2 Synaptics TouchPad' --type=int 297 0
 
 # Enable both vertical and horizontal scrolling
 xinput set-prop 'SynPS/2 Synaptics TouchPad' --type=int 283 1 1
