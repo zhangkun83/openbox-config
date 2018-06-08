@@ -346,14 +346,6 @@
     <keybind key="W-n">
       <action name="Iconify"/>
     </keybind>
-    <keybind key="W-p">
-      <action name="Move"/>
-    </keybind>
-    <keybind key="W-S-p">
-      <action name="Resize">
-        <edge>bottomright</edge>
-      </action>
-    </keybind>
     <keybind key="W-c">
       <action name="ShowMenu">
         <menu>client-menu</menu>
@@ -378,6 +370,67 @@
     <keybind key="W-s">
       <action name="DirectionalCycleWindows">
         <direction>down</direction>
+      </action>
+    </keybind>
+    <!-- Keybindings for moving resizing with keyboard -->
+    <keybind key="W-Up">
+      <action name="MoveRelative">
+        <y>-30</y>
+      </action>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="MoveRelative">
+        <y>30</y>
+      </action>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="MoveRelative">
+        <x>-30</x>
+      </action>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="MoveRelative">
+        <x>+30</x>
+      </action>
+    </keybind>
+    <keybind key="W-S-Up">
+      <action name="ResizeRelative">
+        <bottom>-30</bottom>
+      </action>
+    </keybind>
+    <keybind key="W-S-Down">
+      <action name="ResizeRelative">
+        <bottom>30</bottom>
+      </action>
+    </keybind>
+    <keybind key="W-S-Left">
+      <action name="ResizeRelative">
+        <right>-30</right>
+      </action>
+    </keybind>
+    <keybind key="W-S-Right">
+      <action name="ResizeRelative">
+        <right>+30</right>
+      </action>
+    </keybind>
+    <keybind key="W-A-Up">
+      <action name="MoveToEdge">
+        <direction>north</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Down">
+      <action name="MoveToEdge">
+        <direction>south</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Left">
+      <action name="MoveToEdge">
+        <direction>west</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Right">
+      <action name="MoveToEdge">
+        <direction>east</direction>
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
