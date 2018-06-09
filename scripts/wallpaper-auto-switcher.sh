@@ -7,7 +7,7 @@ LAST_SWITCH_HOUR=""
 
 while :
 do
-    CURRENT_HOUR=$(date +%H)
+    CURRENT_HOUR="$(date +%Y%m%d%H)"
     if [[ "$LAST_SWITCH_HOUR" != "$CURRENT_HOUR" ]]; then
         "$DIR/prepare-wallpaper.sh"
         LAST_SWITCH_HOUR="$CURRENT_HOUR"
