@@ -11,9 +11,7 @@ redshift -O 6100
 $DIR/scripts/start_if_absent.sh urxvtd urxvtd -q -o -f
 $DIR/scripts/start_if_absent.sh nm-applet nm-applet
 $DIR/scripts/start_if_absent.sh xss-lock xss-lock -- $DIR/scripts/lock.sh
-
-killall wallpaper-auto-switcher.sh
-$DIR/scripts/wallpaper-auto-switcher.sh
+$DIR/scripts/start_if_absent.sh wallpaper-auto-switcher.sh $DIR/scripts/wallpaper-auto-switcher.sh || $DIR/scripts/prepare-wallpaper.sh
 
 # something wrong with my workstation that I need to restart ibus-daemon
 # to get it actually work.
