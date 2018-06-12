@@ -375,42 +375,42 @@
     <!-- Keybindings for moving resizing with keyboard -->
     <keybind key="W-Up">
       <action name="MoveRelative">
-        <y>-30</y>
+        <y>-40</y>
       </action>
     </keybind>
     <keybind key="W-Down">
       <action name="MoveRelative">
-        <y>30</y>
+        <y>40</y>
       </action>
     </keybind>
     <keybind key="W-Left">
       <action name="MoveRelative">
-        <x>-30</x>
+        <x>-40</x>
       </action>
     </keybind>
     <keybind key="W-Right">
       <action name="MoveRelative">
-        <x>+30</x>
+        <x>+40</x>
       </action>
     </keybind>
     <keybind key="W-S-Up">
       <action name="ResizeRelative">
-        <bottom>-30</bottom>
+        <bottom>-40</bottom>
       </action>
     </keybind>
     <keybind key="W-S-Down">
       <action name="ResizeRelative">
-        <bottom>30</bottom>
+        <bottom>40</bottom>
       </action>
     </keybind>
     <keybind key="W-S-Left">
       <action name="ResizeRelative">
-        <right>-30</right>
+        <right>-40</right>
       </action>
     </keybind>
     <keybind key="W-S-Right">
       <action name="ResizeRelative">
-        <right>+30</right>
+        <right>40</right>
       </action>
     </keybind>
     <keybind key="W-A-Up">
