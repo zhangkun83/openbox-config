@@ -177,7 +177,7 @@
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
   <keyboard>
-    <chainQuitKey>C-g</chainQuitKey>
+    <chainQuitKey>W-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
     <keybind key="W-1">
       <action name="GoToDesktop">
@@ -375,42 +375,42 @@
     <!-- Keybindings for moving resizing with keyboard -->
     <keybind key="W-Up">
       <action name="MoveRelative">
-        <y>-40</y>
+        <y>-30</y>
       </action>
     </keybind>
     <keybind key="W-Down">
       <action name="MoveRelative">
-        <y>40</y>
+        <y>30</y>
       </action>
     </keybind>
     <keybind key="W-Left">
       <action name="MoveRelative">
-        <x>-40</x>
+        <x>-30</x>
       </action>
     </keybind>
     <keybind key="W-Right">
       <action name="MoveRelative">
-        <x>+40</x>
+        <x>+30</x>
       </action>
     </keybind>
     <keybind key="W-S-Up">
       <action name="ResizeRelative">
-        <bottom>-40</bottom>
+        <bottom>-30</bottom>
       </action>
     </keybind>
     <keybind key="W-S-Down">
       <action name="ResizeRelative">
-        <bottom>40</bottom>
+        <bottom>30</bottom>
       </action>
     </keybind>
     <keybind key="W-S-Left">
       <action name="ResizeRelative">
-        <right>-40</right>
+        <right>-30</right>
       </action>
     </keybind>
     <keybind key="W-S-Right">
       <action name="ResizeRelative">
-        <right>40</right>
+        <right>30</right>
       </action>
     </keybind>
     <keybind key="W-A-Up">
@@ -432,6 +432,241 @@
       <action name="MoveToEdge">
         <direction>east</direction>
       </action>
+    </keybind>
+    <!-- Chain keybindings for setting resize to a percentage to the screen -->
+    <keybind key="W-x">
+      <keybind key="1">
+        <action name="MoveResizeTo">
+          <width>10%</width>
+          <height>10%</height>
+        </action>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="2">
+        <action name="MoveResizeTo">
+          <width>20%</width>
+          <height>20%</height>
+        </action>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="3">
+        <action name="MoveResizeTo">
+          <width>30%</width>
+          <height>30%</height>
+        </action>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="4">
+        <action name="MoveResizeTo">
+          <width>40%</width>
+          <height>40%</height>
+        </action>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="5">
+        <action name="MoveResizeTo">
+          <width>50%</width>
+          <height>50%</height>
+        </action>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="6">
+        <action name="MoveResizeTo">
+          <width>60%</width>
+          <height>60%</height>
+        </action>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="7">
+        <action name="MoveResizeTo">
+          <width>70%</width>
+          <height>70%</height>
+        </action>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="8">
+        <action name="MoveResizeTo">
+          <width>80%</width>
+          <height>80%</height>
+        </action>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="9">
+        <action name="MoveResizeTo">
+          <width>90%</width>
+          <height>90%</height>
+        </action>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="h">
+        <keybind key="1">
+          <action name="MoveResizeTo">
+            <height>10%</height>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="h">
+        <keybind key="2">
+          <action name="MoveResizeTo">
+            <height>20%</height>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="h">
+        <keybind key="3">
+          <action name="MoveResizeTo">
+            <height>30%</height>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="h">
+        <keybind key="4">
+          <action name="MoveResizeTo">
+            <height>40%</height>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="h">
+        <keybind key="5">
+          <action name="MoveResizeTo">
+            <height>50%</height>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="h">
+        <keybind key="6">
+          <action name="MoveResizeTo">
+            <height>60%</height>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="h">
+        <keybind key="7">
+          <action name="MoveResizeTo">
+            <height>70%</height>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="h">
+        <keybind key="8">
+          <action name="MoveResizeTo">
+            <height>80%</height>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="h">
+        <keybind key="9">
+          <action name="MoveResizeTo">
+            <height>90%</height>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="w">
+        <keybind key="1">
+          <action name="MoveResizeTo">
+            <width>10%</width>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="w">
+        <keybind key="2">
+          <action name="MoveResizeTo">
+            <width>20%</width>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="w">
+        <keybind key="3">
+          <action name="MoveResizeTo">
+            <width>30%</width>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="w">
+        <keybind key="4">
+          <action name="MoveResizeTo">
+            <width>40%</width>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="w">
+        <keybind key="5">
+          <action name="MoveResizeTo">
+            <width>50%</width>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="w">
+        <keybind key="6">
+          <action name="MoveResizeTo">
+            <width>60%</width>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="w">
+        <keybind key="7">
+          <action name="MoveResizeTo">
+            <width>70%</width>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="w">
+        <keybind key="8">
+          <action name="MoveResizeTo">
+            <width>80%</width>
+          </action>
+        </keybind>
+      </keybind>
+    </keybind>
+    <keybind key="W-x">
+      <keybind key="w">
+        <keybind key="9">
+          <action name="MoveResizeTo">
+            <width>90%</width>
+          </action>
+        </keybind>
+      </keybind>
     </keybind>
     <!-- Keybindings for running applications -->
     <keybind key="W-Return">
