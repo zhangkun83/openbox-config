@@ -1,7 +1,10 @@
 # Use "xinput list-props 'SynPS/2 Synaptics TouchPad'" to view all properties
 
 # Enable both vertical and horizontal scrolling
-xinput set-prop 'SynPS/2 Synaptics TouchPad' --type=int 283 1 1
+xinput set-prop 'SynPS/2 Synaptics TouchPad' --type=int 'Synaptics Two-Finger Scrolling' 1 1
+
+# Disable scrolling inertia
+xinput set-prop 'SynPS/2 Synaptics TouchPad' --type=float 'Synaptics Coasting Speed' 0 0
 
 # Make fonts slightly larger
 xrdb -merge <<< "Xft.dpi: 105"
