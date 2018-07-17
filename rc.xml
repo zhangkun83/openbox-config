@@ -448,7 +448,7 @@
       <keybind key="1">
         <action name="MoveResizeTo">
           <width>10%</width>
-          <height>10%</height>
+          <height>18%</height>
         </action>
       </keybind>
     </keybind>
@@ -456,7 +456,7 @@
       <keybind key="2">
         <action name="MoveResizeTo">
           <width>20%</width>
-          <height>20%</height>
+          <height>28%</height>
         </action>
       </keybind>
     </keybind>
@@ -464,7 +464,7 @@
       <keybind key="3">
         <action name="MoveResizeTo">
           <width>30%</width>
-          <height>30%</height>
+          <height>38%</height>
         </action>
       </keybind>
     </keybind>
@@ -472,7 +472,7 @@
       <keybind key="4">
         <action name="MoveResizeTo">
           <width>40%</width>
-          <height>40%</height>
+          <height>48%</height>
         </action>
       </keybind>
     </keybind>
@@ -480,7 +480,7 @@
       <keybind key="5">
         <action name="MoveResizeTo">
           <width>50%</width>
-          <height>50%</height>
+          <height>58%</height>
         </action>
       </keybind>
     </keybind>
@@ -488,7 +488,7 @@
       <keybind key="6">
         <action name="MoveResizeTo">
           <width>60%</width>
-          <height>60%</height>
+          <height>68%</height>
         </action>
       </keybind>
     </keybind>
@@ -496,7 +496,7 @@
       <keybind key="7">
         <action name="MoveResizeTo">
           <width>70%</width>
-          <height>70%</height>
+          <height>78%</height>
         </action>
       </keybind>
     </keybind>
@@ -504,7 +504,7 @@
       <keybind key="8">
         <action name="MoveResizeTo">
           <width>80%</width>
-          <height>80%</height>
+          <height>88%</height>
         </action>
       </keybind>
     </keybind>
@@ -512,7 +512,7 @@
       <keybind key="9">
         <action name="MoveResizeTo">
           <width>90%</width>
-          <height>90%</height>
+          <height>98%</height>
         </action>
       </keybind>
     </keybind>
@@ -520,7 +520,7 @@
       <keybind key="h">
         <keybind key="1">
           <action name="MoveResizeTo">
-            <height>10%</height>
+            <height>18%</height>
           </action>
         </keybind>
       </keybind>
@@ -529,7 +529,7 @@
       <keybind key="h">
         <keybind key="2">
           <action name="MoveResizeTo">
-            <height>20%</height>
+            <height>28%</height>
           </action>
         </keybind>
       </keybind>
@@ -538,7 +538,7 @@
       <keybind key="h">
         <keybind key="3">
           <action name="MoveResizeTo">
-            <height>30%</height>
+            <height>38%</height>
           </action>
         </keybind>
       </keybind>
@@ -547,7 +547,7 @@
       <keybind key="h">
         <keybind key="4">
           <action name="MoveResizeTo">
-            <height>40%</height>
+            <height>48%</height>
           </action>
         </keybind>
       </keybind>
@@ -556,7 +556,7 @@
       <keybind key="h">
         <keybind key="5">
           <action name="MoveResizeTo">
-            <height>50%</height>
+            <height>58%</height>
           </action>
         </keybind>
       </keybind>
@@ -565,7 +565,7 @@
       <keybind key="h">
         <keybind key="6">
           <action name="MoveResizeTo">
-            <height>60%</height>
+            <height>68%</height>
           </action>
         </keybind>
       </keybind>
@@ -574,7 +574,7 @@
       <keybind key="h">
         <keybind key="7">
           <action name="MoveResizeTo">
-            <height>70%</height>
+            <height>78%</height>
           </action>
         </keybind>
       </keybind>
@@ -583,7 +583,7 @@
       <keybind key="h">
         <keybind key="8">
           <action name="MoveResizeTo">
-            <height>80%</height>
+            <height>88%</height>
           </action>
         </keybind>
       </keybind>
@@ -592,7 +592,7 @@
       <keybind key="h">
         <keybind key="9">
           <action name="MoveResizeTo">
-            <height>90%</height>
+            <height>98%</height>
           </action>
         </keybind>
       </keybind>
