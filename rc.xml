@@ -422,6 +422,24 @@
         <direction>east</direction>
       </action>
     </keybind>
+    <keybind key="W-A-S-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <height>98%</height>
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdgeSouth"/>
+      <action name="MoveToEdgeWest"/>
+    </keybind>
+    <keybind key="W-A-S-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <height>98%</height>
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdgeSouth"/>
+      <action name="MoveToEdgeEast"/>
+    </keybind>
     <!-- Chain keybindings for setting resize to a percentage to the screen -->
     <keybind key="W-x">
       <keybind key="1">
