@@ -361,27 +361,6 @@
         <menu>root-menu</menu>
       </action>
     </keybind>
-    <!-- Keybindings for window switching with the arrow keys -->
-    <keybind key="W-d">
-      <action name="DirectionalCycleWindows">
-        <direction>right</direction>
-      </action>
-    </keybind>
-    <keybind key="W-a">
-      <action name="DirectionalCycleWindows">
-        <direction>left</direction>
-      </action>
-    </keybind>
-    <keybind key="W-w">
-      <action name="DirectionalCycleWindows">
-        <direction>up</direction>
-      </action>
-    </keybind>
-    <keybind key="W-s">
-      <action name="DirectionalCycleWindows">
-        <direction>down</direction>
-      </action>
-    </keybind>
     <!-- Keybindings for moving resizing with keyboard -->
     <keybind key="W-Up">
       <action name="MoveRelative">
